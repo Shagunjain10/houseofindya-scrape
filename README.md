@@ -23,15 +23,15 @@ It extracts the following:
 4. Run requirements.txt file
    - ```pip install -r requirements.txt```
 
-### run the following command for generate a JSON file
+### Run the following command for generate a JSON file
 ```
 scrapy crawl list_of_necklace -o JewelryList.json
 ```
-It will create `JewelryList.json` json file.
+It will create `JewelryList.json` [json file](https://github.com/Shagunjain10/houseofindya_scrape/blob/main/JewelryList.json).
 
-### run the following command for generate a CSV file
+### Run the following command for generate a CSV file
 ```
 scrapy crawl list_of_necklace -o jewelryList.csv
 ```
 
-It will create `JewelryList.json` csv file.
+It will create `JewelryList.json` [csv file](https://github.com/Shagunjain10/houseofindya_scrape/blob/main/jewelryList.csv).
