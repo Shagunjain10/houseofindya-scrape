@@ -33,12 +33,14 @@ It extracts the following:
 ```
 scrapy crawl list_of_necklace -o NecklaceList.json
 ```
-It will create `JewelryList.json` json file.
+It will create `NecklaceList.json` [JSON file](https://github.com/Shagunjain10/houseofindya_scrape/blob/main/NecklaceList.json).
 
 ### Run the following command for generate a CSV file
 ```
 scrapy crawl list_of_necklace -o NecklaceList.csv
 ```
+It will create `NecklaceList.csv` [CSV file](https://github.com/Shagunjain10/houseofindya_scrape/blob/main/NecklaceList.csv).
+
 ### Run the following command for generate a CSV file for scrape the all jewelry page
 ```
 scrapy crawl list_of_jewelry -o jewelryList.csv
