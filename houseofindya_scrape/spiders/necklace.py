@@ -1,8 +1,8 @@
 import scrapy
 
 class ListofNecklace(scrapy.Spider):
-	name='list_of_jewelry'
-	start_urls = ['https://www.houseofindya.com/zyra/']
+	name='list_of_necklace'
+	start_urls = ['https://www.houseofindya.com/zyra/necklace/cat']
 
 	def parse(self,response):
 		description = response.xpath('//li//div[@class="catgName"]//p//text()').getall()
